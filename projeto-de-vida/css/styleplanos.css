@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+    color: black;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+body {
+    background-color: white;
+    min-height: 100vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.logo{
+    max-width: 150px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+nav ul li{
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+nav ul li a {
+
+    color: white;
+    text-decoration: none;
+    background-color: #00bfffb8;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav ul li a:hover{
+    color: rgb(0, 0, 0);
+}
+
+header h1{
+    font-size: 3.5rem;
+}
+
+section {
+    margin-top: 35px;
+    font-size: 15px;
+    text-align: center;
+    border-top: rgb(0, 0, 0) 2px solid;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.titulos {
+    text-align: center;
+    border: rgb(0, 0, 0) 1px solid;
+    padding: 30px 25px;
+    max-width: 800px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background: linear-gradient( rgba(0, 217, 255, 0.5),rgba(255, 255, 255, 0.6)), 
+                url('/img/pito.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.titulos h1,h3{
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+section main p{
+    text-align: left;
+}
